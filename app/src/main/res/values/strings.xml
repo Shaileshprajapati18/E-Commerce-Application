@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ECommerce App</string>
+
+    <string name="first_slide">Choose your products</string>
+    <string name="second_slide">Fast Delivery</string>
+    <string name="third_slide">Good Service</string>
+
+    <string name="description1">Choose your product allows users to browse and filter items effortlessly with intuitive categories and advanced search options. Detailed descriptions, images, and reviews help make informed decisions for a seamless shopping experience.</string>
+    <string name="description2">Fast delivery services ensure customers receive their orders quickly and reliably, enhancing satisfaction and trust. Real-time tracking and efficient logistics management make the experience seamless and stress-free.</string>
+    <string name="description3">Good services for an e-commerce Android application include secure payment gateways, real-time order tracking, seamless product search, personalized recommendations, and efficient customer support to enhance user satisfaction and drive sales.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
