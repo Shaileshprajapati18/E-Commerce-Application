@@ -86,7 +86,8 @@ public class cartAdapter extends RecyclerView.Adapter<cartAdapter.ViewHolder> {
 
         holder.remove.setOnClickListener(v -> {
             DatabaseHelper databaseHelper = new DatabaseHelper(context);
-            databaseHelper.deleteProduct(item.getId()); // Default delete action (e.g., cart)
+            databaseHelper.deleteProduct(item.getId());
+            databaseHelper.deleteProduct_favorite(item.getId());
             list.remove(position);
             notifyDataSetChanged();
             if (priceUpdateListener != null) {
